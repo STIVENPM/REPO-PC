@@ -1,0 +1,14 @@
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\bin\Debug\net9.0\ProyectoCsharp.exe
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\bin\Debug\net9.0\ProyectoCsharp.deps.json
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\bin\Debug\net9.0\ProyectoCsharp.runtimeconfig.json
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\bin\Debug\net9.0\ProyectoCsharp.dll
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\bin\Debug\net9.0\ProyectoCsharp.pdb
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.AssemblyInfoInputs.cache
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.AssemblyInfo.cs
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.dll
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\refint\ProyectoCsharp.dll
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.pdb
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ProyectoCsharp.genruntimeconfig.cache
+C:\Users\Tecnologia\Downloads\18-11-25\c#\ProyectoCsharp\obj\Debug\net9.0\ref\ProyectoCsharp.dll

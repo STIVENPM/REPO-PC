@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco ST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Problema 1: Sistema de cuentas bancarias
+Un banco quiere desarrollar una aplicación sencilla para gestionar las cuentas de sus clientes.
+Cada cliente tiene una cuenta donde guarda su dinero. El sistema debe permitir realizar operaciones
+básicas como ingresar dinero, retirar dinero y consultar el saldo disponible.
+Además, el banco quiere evitar que se retiren montos mayores al dinero disponible en la cuenta.
+El sistema debe permitir que diferentes clientes tengan sus propias cuentas y puedan realizar
+operaciones de forma independiente.-->
+<body>
+
+    <header>
+        <h1>Banco ST</h1>
+    </header>
+
+    <!-- Registro de usuarios -->
+    <section class="contenedor1">
+        <h2>Registro de clientes</h2>
+
+        <form id="formCuenta">
+            <input type="text" id="nombre" placeholder="Nombre del cliente">
+            <input type="email" id="correo" placeholder="Correo">
+
+            <button type="submit">Ingresar usuario</button>
+        </form>
+
+        <p id="resultado"></p>
+    </section>
+
+    <!-- Operaciones bancarias -->
+    <section class="contenedor3">
+        <h2>Operaciones bancarias</h2>
+
+        <select id="usuarioOperacion">
+            <option value="">Seleccione un usuario</option>
+        </select>
+
+        <select id="operacion">
+            <option value="ingresar">Ingresar dinero</option>
+            <option value="retirar">Retirar dinero</option>
+            <option value="consultar">Consultar saldo</option>
+        </select>
+
+        <input type="number" id="monto" placeholder="Monto">
+
+        <button id="btnOperacion">Realizar operación</button>
+
+        <p id="resultadoOperacion"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

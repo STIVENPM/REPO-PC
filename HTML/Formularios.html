@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="stiles/styles.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <h1>Blog educativo de HTML</h1>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="Estructurales.html">Estructurales</a>
+        <a href="Texto.html">Texto</a>
+        <a href="Imagenes.html">Multimedia</a>
+        <a href="Formularios.html">Formularios</a>
+        <a href="Listas.html">Listas</a>
+    </nav>
+
+    <section class="contenido">
+        <h2 class="titulo">Formularios en HTML</h2>
+
+        <h2>¿Qué son las etiquetas de formularios?</h2>
+        <p>
+            Los formularios son una de las herramientas principales para que los usuarios interactúen con una página web. 
+            Permiten ingresar datos, enviar mensajes, registrarse, iniciar sesión o seleccionar opciones dentro de un sitio.
+        </p>
+
+        <p>
+            En HTML, los formularios se construyen con la etiqueta <strong>&lt;form&gt;</strong> y dentro de ella se pueden usar 
+            diferentes campos como texto, correo, contraseña, archivos, fechas y casillas de selección.
+        </p>
+
+        <h2>Ejemplo de formulario</h2>
+
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo">
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su correo electrónico">
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña">
+
+            <button type="submit" class="boton-envio">Enviar</button>
+        </form>
+
+        <h3>Sintaxis</h3>
+        <div class="ejemplo">
+            &lt;form&gt;<br>
+            &nbsp;&nbsp;&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;<br>
+            &nbsp;&nbsp;&lt;input type="text" id="nombre" name="nombre"&gt;<br>
+            &lt;/form&gt;
+        </div>
+
+        <h3>Seleccionar archivo</h3>
+        <p>
+            El tipo <strong>file</strong> permite al usuario elegir un archivo desde su dispositivo.
+        </p>
+        <input class="archivo" type="file">
+
+        <h3>Sintaxis</h3>
+        <div class="ejemplo">
+            &lt;input type="file"&gt;
+        </div>
+
+        <h3>Seleccionar fecha</h3>
+        <p>
+            El tipo <strong>date</strong> permite elegir una fecha desde un calendario.
+        </p>
+        <input type="date">
+
+        <h3>Sintaxis</h3>
+        <div class="ejemplo">
+            &lt;input type="date"&gt;
+        </div>
+
+        <h3>Casilla de verificación</h3>
+        <p>
+            El tipo <strong>checkbox</strong> permite seleccionar o aceptar una opción.
+        </p>
+        <label>
+            <input type="checkbox"> Aceptar términos y condiciones
+        </label>
+
+        <h3>Sintaxis</h3>
+        <div class="ejemplo">
+            &lt;input type="checkbox"&gt;
+        </div>
+
+    </section>
+
+    <footer class="pie">
+        <p>Proyecto educativo</p>
+        <p>Santiago Gordo Perez</p>
+        <p>Jose Stiven Perdomo Martinez</p>
+    </footer>
+
+    <script src="js/ejemplo.js"></script>
+</body>
+</html>

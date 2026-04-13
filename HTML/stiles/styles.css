@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #e7f3ef 0%, #d7e9e2 100%);
+    color: #1e2a28;
+}
+.menu a{
+    color:white;
+    margin:15px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.menu a.activo{
+    background-color:white;
+    color:#173834;
+    border-radius:8px;
+    padding:6px 12px;
+}
+
+/* Encabezado */
+.encabezado {
+    background: linear-gradient(135deg, #0b2f2d, #114b46);
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.encabezado h1 {
+    font-size: 2.3rem;
+    letter-spacing: 0.5px;
+}
+
+/* Menú */
+.menu {
+    background-color: #163f3a;
+    text-align: center;
+    padding: 14px 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    margin: 6px 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    background-color: #2d6a61;
+}
+
+.menu a.activo {
+    background-color: #ffffff;
+    color: #163f3a;
+}
+
+/* Contenido principal */
+.contenido {
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+}
+
+.titulo {
+    font-size: 2.2rem;
+    text-align: center;
+    color: #114b46;
+    margin-bottom: 25px;
+}
+
+.contenido h2 {
+    color: #114b46;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-size: 1.8rem;
+}
+
+.contenido h3 {
+    color: #1f6a61;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.contenido p {
+    font-size: 1.08rem;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+.contenido ul,
+.contenido ol {
+    margin: 20px 0 20px 30px;
+}
+
+.contenido li {
+    font-size: 1.08rem;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+/* Bloques de ejemplo */
+.ejemplo {
+    background-color: #f4fbf9;
+    padding: 20px;
+    border-left: 6px solid #1f6a61;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Iframe */
+iframe {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border-radius: 12px;
+}
+
+/* Formularios */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #114b46;
+}
+
+input,
+textarea,
+select {
+    padding: 14px;
+    border-radius: 10px;
+    border: 1px solid #b9d2cb;
+    font-size: 1rem;
+    background-color: #fcfffe;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #1f6a61;
+    box-shadow: 0 0 0 3px rgba(31, 106, 97, 0.15);
+}
+
+.archivo {
+    background-color: #f4fbf9;
+    padding: 10px;
+}
+
+.boton-envio {
+    background: linear-gradient(135deg, #114b46, #1f6a61);
+    color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.boton-envio:hover {
+    background: linear-gradient(135deg, #0d3a36, #19554e);
+    transform: translateY(-2px);
+}
+
+/* Enlaces dentro del contenido */
+.contenido a {
+    color: #114b46;
+    font-weight: bold;
+}
+
+.contenido a:hover {
+    color: #0b2f2d;
+}
+
+/* Pie de página */
+.pie {
+    background: linear-gradient(135deg, #0b2f2d, #114b46);
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+    margin-top: 40px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .encabezado h1 {
+        font-size: 1.7rem;
+    }
+
+    .contenido {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .titulo {
+        font-size: 1.7rem;
+    }
+
+    .contenido h2 {
+        font-size: 1.4rem;
+    }
+
+    .menu a {
+        margin: 4px;
+        padding: 8px 12px;
+        font-size: 0.95rem;
+    }
+}

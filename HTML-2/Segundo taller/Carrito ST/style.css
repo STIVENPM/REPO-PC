@@ -1,0 +1,101 @@
+/* Estilo general de toda la página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #ffffff;
+}
+
+/* Estilo del encabezado */
+header {
+    background: #0040ff;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Título principal */
+header h1 {
+    margin: 0;
+}
+
+/* Contenedores principales */
+.contenedor {
+    width: 400px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #0040ff;
+}
+
+/* Títulos secundarios */
+h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Etiquetas */
+label {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Lista de productos */
+select {
+    height: 160px;
+    margin-top: 10px;
+}
+
+/* Botones */
+button {
+    background: #0040ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100%;
+}
+
+/* Efecto hover */
+button:hover {
+    opacity: 0.9;
+}
+
+/* Total de la compra */
+#totalCompra {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0040ff;
+    margin-top: 10px;
+}
+
+/* Mensajes del sistema */
+#resultadoAgregar,
+#resultadoEliminar {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #0040ff;
+    min-height: 24px;
+}

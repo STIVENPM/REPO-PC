@@ -1,0 +1,81 @@
+/* Estilo general de toda la página */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra de toda la página */
+    margin: 0; /* Elimina el margen que el navegador agrega por defecto */
+    background: #ffffff; /* Color de fondo blanco */
+}
+
+/* Estilo del encabezado donde está el título del banco */
+header {
+    background: #228B22; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    text-align: center; /* Centra el texto horizontalmente */
+    padding: 30px; /* Espacio interno alrededor del contenido */
+}
+
+/* Elimina el margen del título dentro del header */
+header h1 {
+    margin: 0; /* Quita el espacio que el navegador pone arriba y abajo del h1 */
+}
+
+/* Estilo de los contenedores principales (formularios) */
+.contenedor1,
+.contenedor3 {
+    width: 400px; /* Ancho del contenedor */
+    margin: 40px auto; /* Centra el contenedor horizontalmente */
+    background: rgb(255, 255, 255); /* Fondo blanco */
+    padding: 30px; /* Espacio interno dentro del contenedor */
+    text-align: center; /* Centra el texto dentro del contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(34, 139, 34, 0.2); /* Sombra suave alrededor */
+}
+
+/* Estilo de los títulos h2 */
+h2 {
+    margin-top: 0; /* Elimina el espacio superior */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilo del formulario */
+form {
+    display: flex; /* Usa sistema flexible de diseño */
+    flex-direction: column; /* Coloca los elementos en columna */
+    gap: 15px; /* Espacio entre los elementos */
+}
+
+/* Estilo para los campos de entrada y select */
+input,
+select {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 12px; /* Espacio interno dentro del campo */
+    font-size: 16px; /* Tamaño de la letra */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye padding dentro del ancho total */
+    margin-bottom: 15px; /* Espacio debajo de cada campo */
+}
+
+/* Estilo de los botones */
+button {
+    background: #228B22; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    border: none; /* Quita el borde del botón */
+    padding: 12px 20px; /* Espacio interno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la letra */
+    cursor: pointer; /* Cambia el cursor a mano al pasar el mouse */
+}
+
+/* Efecto cuando el mouse pasa por el botón */
+button:hover {
+    opacity: 0.9; /* Hace el botón un poco más transparente al pasar el mouse */
+}
+
+/* Estilo para el mensaje de resultado */
+#resultado,
+#resultadoOperacion {
+    margin-top: 20px; /* Espacio arriba del mensaje */
+    font-size: 18px; /* Tamaño del texto */
+    color: #000000; /* Color del texto negro */
+    min-height: 24px; /* Altura mínima para evitar que se mueva la página */
+}

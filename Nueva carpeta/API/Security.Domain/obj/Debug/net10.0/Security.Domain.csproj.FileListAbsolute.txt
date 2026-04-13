@@ -1,0 +1,12 @@
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\bin\Debug\net10.0\Security.Domain.deps.json
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\bin\Debug\net10.0\Security.Domain.dll
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\bin\Debug\net10.0\Security.Domain.pdb
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.AssemblyInfoInputs.cache
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.AssemblyInfo.cs
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.sourcelink.json
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.dll
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\refint\Security.Domain.dll
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\Security.Domain.pdb
+C:\Users\Perdo\OneDrive\Documentos\INSTRUCTOR-C\Nueva carpeta\API\Security.Domain\obj\Debug\net10.0\ref\Security.Domain.dll

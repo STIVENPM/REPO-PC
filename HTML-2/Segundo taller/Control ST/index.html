@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control ST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Problema 5: Control de vehículos
+Una empresa de transporte necesita un sistema para controlar el estado de sus vehículos.
+Cada vehículo puede cambiar su velocidad dependiendo de las acciones del conductor. El sistema
+debe permitir aumentar o disminuir la velocidad y mostrar el estado actual del vehículo.
+La empresa quiere usar el sistema para monitorear varios vehículos al mismo tiempo.
+-->
+
+<body>
+    <header>
+        <h1>Control ST</h1>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <h2>Registrar vehiculo</h2>
+
+            <form id="vehiculoForm">
+                <label for="nombreVehiculo">Nombre o placa del vehiculo:</label>
+                <input type="text" id="nombreVehiculo" placeholder="Ingrese el nombre o placa">
+
+                <label for="velocidadVehiculo">Velocidad inicial:</label>
+                <input type="number" id="velocidadVehiculo" placeholder="Ingrese la velocidad inicial">
+
+                <button type="submit">Registrar vehiculo</button>
+            </form>
+
+            <p id="resultadoRegistro"></p>
+        </section>
+
+        <section class="contenedor">
+            <h2>Vehiculos registrados</h2>
+
+            <select id="listaVehiculos" size="8">
+                <option value="">No hay vehiculos registrados</option>
+            </select>
+
+            <button type="button" id="aumentarVelocidad">Aumentar velocidad</button>
+            <button type="button" id="disminuirVelocidad">Disminuir velocidad</button>
+
+            <p id="resultadoAccion"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda ST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Problema 2: Inventario de una tienda
+Una tienda de tecnología necesita un sistema para administrar los productos que tiene en su
+inventario.
+Cada producto tiene información como su nombre, precio y la cantidad disponible en el almacén. El
+sistema debe permitir registrar nuevos productos, consultar la información de cada uno y calcular el
+valor total del inventario según la cantidad disponible.
+La tienda quiere usar este sistema para tener un mejor control de los productos que vende.-->
+
+<body>
+    <header>
+        <h1>Tienda ST</h1>
+    </header>
+    
+    <section class="contenedor1">
+        <h2>Registrar nuevo producto</h2>
+        <form id="formProducto">
+            <input type="text" id="nombreProducto" placeholder="Nombre del producto">
+            <input type="number" id="precioProducto" placeholder="Precio">
+            <input type="number" id="cantidadProducto" placeholder="Cantidad disponible">
+
+            <button type="submit">Registrar producto</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+
+    <section class="contenedor2">
+        <h2>Consultar información</h2>
+
+        <select id="productoConsulta">
+            <option value="">Seleccione un producto</option>
+        </select>
+<!--calcular el
+valor total del inventario según la cantidad disponible.-->
+        <form id="formConsulta">
+        <input type="text" id="nombreConsulta" placeholder="Nombre del producto" readonly>
+        <input type="text" id="precioConsulta" placeholder="Precio" readonly>
+        <input type="text" id="cantidadConsulta" placeholder="Cantidad disponible" readonly>
+        <input type="text" id="valorTotalConsulta" placeholder="valor total del inventario" readonly>
+             <button type="button" id="btnConsultar">Consultar</button>
+        </form>
+        
+        <p id="resultadoConsulta"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

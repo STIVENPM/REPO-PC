@@ -1,0 +1,14 @@
+C:\Users\MI PC\Documents\Documentos\nooo\bin\Debug\net9.0\nooo.exe
+C:\Users\MI PC\Documents\Documentos\nooo\bin\Debug\net9.0\nooo.deps.json
+C:\Users\MI PC\Documents\Documentos\nooo\bin\Debug\net9.0\nooo.runtimeconfig.json
+C:\Users\MI PC\Documents\Documentos\nooo\bin\Debug\net9.0\nooo.dll
+C:\Users\MI PC\Documents\Documentos\nooo\bin\Debug\net9.0\nooo.pdb
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.AssemblyInfoInputs.cache
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.AssemblyInfo.cs
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.csproj.CoreCompileInputs.cache
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.dll
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\refint\nooo.dll
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.pdb
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\nooo.genruntimeconfig.cache
+C:\Users\MI PC\Documents\Documentos\nooo\obj\Debug\net9.0\ref\nooo.dll

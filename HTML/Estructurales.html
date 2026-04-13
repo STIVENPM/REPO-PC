@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructurales</title>
+    <link rel="stylesheet" href="stiles/styles.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <h1>Blog educativo de HTML</h1>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html">Inicio</a>
+        <a href="Estructurales.html">Estructurales</a>
+        <a href="Texto.html">Texto</a>
+        <a href="Imagenes.html">Multimedia</a>
+        <a href="Formularios.html">Formularios</a>
+        <a href="Listas.html">Listas</a>
+    </nav>
+
+    <section class="contenido">
+
+        <h2 class="titulo">¿Cuál es la estructura en HTML?</h2>
+
+        <p>
+            La estructura de un documento HTML se basa en una jerarquía de etiquetas que organiza el contenido 
+            en dos secciones fundamentales dentro de la etiqueta raíz <strong>html</strong>. 
+            La primera es el <strong>head</strong>, que funciona como el cerebro del documento almacenando 
+            metadatos, configuraciones de caracteres, el título de la pestaña y enlaces a recursos externos 
+            que no son visibles para el usuario. 
+        </p>
+
+        <p>
+            La segunda es el <strong>body</strong>, que constituye el cuerpo visible de la página y donde 
+            se declaran todos los elementos estructurales como encabezados, párrafos, imágenes e hipervínculos. 
+            Esta arquitectura, encabezada siempre por la declaración <strong>!DOCTYPE html</strong>, garantiza 
+            que el navegador interprete correctamente la estructura del documento.
+        </p>
+
+        <h2>Tipos de estructuras</h2>
+
+        <p>
+            Estas etiquetas sirven para organizar la estructura de una página web y se dividen en dos partes:
+        </p>
+
+        <h3>Estructuras de configuración (El contenedor)</h3>
+
+        <ul>
+            <li>
+                <strong>html:</strong>  
+                Es la etiqueta raíz de todo el documento. Representa el inicio y el final de la página web. 
+                Todo el contenido del documento debe estar dentro de esta etiqueta.
+            </li>
+
+            <li>
+                <strong>head:</strong>  
+                Es la sección de configuración del documento. Aquí se guarda información que no es visible 
+                directamente para el usuario, como el título de la página, enlaces a archivos CSS o metadatos.
+            </li>
+        </ul>
+
+        <h3>Estructuras de contenido y diseño (Lo visible)</h3>
+
+        <ul>
+
+            <li>
+                <strong>body:</strong>  
+                Es el cuerpo de la página web. Todo lo que pongas dentro de esta etiqueta es lo que el usuario 
+                verá en el navegador, como textos, imágenes, botones o enlaces.
+            </li>
+
+            <li>
+                <strong>nav:</strong>  
+                Se utiliza para definir bloques de navegación. Normalmente contiene menús con enlaces que 
+                permiten moverse entre las diferentes páginas del sitio web.
+            </li>
+
+            <li>
+                <strong>section:</strong>  
+                Define una sección dentro del documento. Se utiliza para agrupar contenido relacionado 
+                como secciones de servicios, información o contenido principal.
+            </li>
+
+            <li>
+                <strong>footer:</strong>  
+                Es el pie de página del sitio web. Generalmente contiene información adicional como 
+                derechos de autor, enlaces a redes sociales o información de contacto.
+            </li>
+
+        </ul>
+
+        <h2>Estructura básica de HTML</h2>
+
+        <img src="https://recursivos.com/images/html/estructura-HTML5.png" 
+             alt="Estructura básica de un documento HTML">
+
+    </section>
+
+    <footer class="pie">
+        <p>Proyecto educativo</p>
+        <p>Santiago Gordo Perez</p>
+        <p>Jose Stiven Perdomo Martinez</p>
+    </footer>
+
+    <script src="js/ejemplo.js"></script>
+
+</body>
+</html>

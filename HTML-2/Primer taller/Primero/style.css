@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background:#ffffff;
+}
+
+header{
+    background:#1565C0;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+/*Estilos para la barra de navegación*/
+.navbar{
+    background:#1E293B;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar a{
+    color:white;
+    padding:14px 20px;
+    text-decoration:none;
+    
+}
+
+.navbar a:hover{
+    background:#aaaaaa;
+}
+/*Estilos para el contenedor del mensaje*/
+.contenedor1{
+    width:400px;
+    margin:90px auto;
+    background:rgb(255, 255, 255);
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0, 68, 255, 0.2);
+}
+/*Estilos para el botón*/
+button{
+    background:#1565C0;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+    font-size:16px;
+}
+/*Estilos para el resultado del mensaje*/
+#resultado{
+    margin-top:20px;
+    font-size:18px;
+    color:#000000;
+}
+
+
+
+
+
+
+/*Estilos para el contenedor de la suma*/
+.contenedor2{
+    width:400px;
+    margin:90px auto;
+    background:rgb(255, 255, 255);
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0, 68, 255, 0.2);
+}
+/* inputs */
+.contenedor2 input{
+    width:80%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+    font-size:16px;
+}
+
+/* boton */
+.contenedor2 button{
+    background:#1565C0;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+
+/*Estilos para los campos de entrada*/
+#resultadoSuma{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+    color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor3{
+    width:400px;
+    margin:90px auto;
+    background:rgb(255, 255, 255);
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0, 68, 255, 0.2);
+}
+
+.contenedor3 button{
+    margin:10px;
+    padding:10px 20px;
+}
+
+#btnRojo{
+    background:#e74c3c;
+    color:white;
+}
+
+#btnVerde{
+    background:#2ecc71;
+    color:white;
+}
+
+#btnAzul{
+    background:#3498db;
+    color:white;
+}
+
+
+
+
+
+
+

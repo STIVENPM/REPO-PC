@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Texto</title>
+    <link rel="stylesheet" href="stiles/styles.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <h1>Blog educativo de HTML</h1>
+</header>
+
+<nav class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="Estructurales.html">Estructurales</a>
+    <a href="Texto.html">Texto</a>
+    <a href="Imagenes.html">Multimedia</a>
+    <a href="Formularios.html">Formularios</a>
+    <a href="Listas.html">Listas</a>
+</nav>
+
+<section class="contenido">
+
+<h2 class="titulo">Texto en HTML</h2>
+
+<h2>Jerarquía de títulos</h2>
+
+<p>
+En HTML la jerarquía de contenido se define utilizando las etiquetas de encabezado que van desde 
+<strong>&lt;h1&gt;</strong> hasta <strong>&lt;h6&gt;</strong>. 
+Cada número indica el nivel de importancia dentro del documento.
+</p>
+
+<p>
+El <strong>&lt;h1&gt;</strong> representa el título principal de la página, mientras que 
+<strong>&lt;h2&gt;</strong>, <strong>&lt;h3&gt;</strong> y los demás niveles se utilizan para dividir 
+el contenido en secciones y subsecciones.
+</p>
+
+<p>
+Es importante mantener un orden lógico de los encabezados para que los motores de búsqueda y los 
+lectores de pantalla puedan entender correctamente la estructura del documento.
+</p>
+
+<div class="ejemplo">
+&lt;h1&gt;Título principal&lt;/h1&gt;<br>
+&lt;h2&gt;Subtítulo&lt;/h2&gt;<br>
+&lt;h3&gt;Subsección&lt;/h3&gt;
+</div>
+
+<h2>Formato de texto básico</h2>
+
+<p>
+El formato de texto en HTML permite organizar la información y dar significado al contenido. 
+Algunas de las etiquetas más utilizadas son:
+</p>
+
+<ul>
+<li>
+<strong>&lt;p&gt;</strong>: se utiliza para crear párrafos de texto.
+</li>
+
+<li>
+<strong>&lt;em&gt;</strong>: se utiliza para dar énfasis a una palabra o frase, normalmente mostrándose en cursiva.
+</li>
+
+<li>
+<strong>&lt;br&gt;</strong>: se utiliza para realizar un salto de línea dentro del texto.
+</li>
+</ul>
+
+<div class="ejemplo">
+&lt;p&gt;Este es un párrafo&lt;/p&gt;<br>
+&lt;em&gt;Texto en cursiva&lt;/em&gt;<br>
+Primera línea&lt;br&gt;Segunda línea
+</div>
+
+<h2>Enlaces en HTML</h2>
+
+<p>
+Los enlaces se crean con la etiqueta <strong>&lt;a&gt;</strong> y permiten conectar páginas web 
+entre sí mediante el atributo <strong>href</strong>.
+</p>
+
+<h3>Enlace externo</h3>
+
+<p>
+Un enlace externo dirige al usuario hacia otra página web diferente.
+</p>
+
+<div class="ejemplo">
+<a href="https://www.google.com">Ir a Google</a>
+</div>
+
+<h3>Sintaxis</h3>
+
+<div class="ejemplo">
+&lt;a href="https://www.google.com"&gt;Ir a Google&lt;/a&gt;
+</div>
+
+<h3>Enlace interno</h3>
+
+<p>
+Un enlace interno permite navegar entre páginas dentro del mismo sitio web.
+</p>
+
+<div class="ejemplo">
+<a href="index.html">Ir a Inicio</a>
+</div>
+
+<h3>Sintaxis</h3>
+
+<div class="ejemplo">
+&lt;a href="index.html"&gt;Ir a Inicio&lt;/a&gt;
+</div>
+
+<h2>Insertar un sitio web</h2>
+
+<p>
+La etiqueta <strong>&lt;iframe&gt;</strong> permite mostrar otra página web dentro de la página actual.
+</p>
+
+<iframe src="https://www.wikipedia.org" width="100%" height="500" title="Wikipedia"></iframe>
+
+<h3>Sintaxis</h3>
+
+<div class="ejemplo">
+&lt;iframe src="https://www.wikipedia.org"&gt;&lt;/iframe&gt;
+</div>
+
+</section>
+
+<footer class="pie">
+<p>Proyecto educativo</p>
+<p>Santiago Gordo Perez</p>
+<p>Jose Stiven Perdomo Martinez</p>
+</footer>
+
+<script src="js/ejemplo.js"></script>
+
+</body>
+</html>

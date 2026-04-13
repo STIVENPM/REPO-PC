@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15459B44-D5AD-4FD4-8804-1D8F3E39E4DA}|Security.Application\\Security.Application.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\security.application\\security.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{15459B44-D5AD-4FD4-8804-1D8F3E39E4DA}|Security.Application\\Security.Application.csproj|solutionrelative:security.application\\security.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15459B44-D5AD-4FD4-8804-1D8F3E39E4DA}|Security.Application\\Security.Application.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\security.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15459B44-D5AD-4FD4-8804-1D8F3E39E4DA}|Security.Application\\Security.Application.csproj|solutionrelative:security.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15459B44-D5AD-4FD4-8804-1D8F3E39E4DA}|Security.Application\\Security.Application.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\security.application\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15459B44-D5AD-4FD4-8804-1D8F3E39E4DA}|Security.Application\\Security.Application.csproj|solutionrelative:security.application\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C8E29D91-5D78-5EEB-C35B-72FE79CEC3B5}|Security.Domain\\Security.Domain.csproj|c:\\users\\perdo\\onedrive\\documentos\\instructor-c\\nueva carpeta\\api\\security.domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8E29D91-5D78-5EEB-C35B-72FE79CEC3B5}|Security.Domain\\Security.Domain.csproj|solutionrelative:security.domain\\entities\\usuariorol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:22:48.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:22:02.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T01:19:48.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:18:19.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Application\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Security.Application\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Application\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "Security.Application\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:17:24.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Application\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Security.Application\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Application\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "Security.Application\\Security\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:15:18.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Security.Application",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Application\\Security.Application.csproj",
+              "RelativeDocumentMoniker": "Security.Application\\Security.Application.csproj",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Application\\Security.Application.csproj",
+              "RelativeToolTip": "Security.Application\\Security.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T01:13:27.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioRol.cs",
+              "DocumentMoniker": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Domain\\Entities\\UsuarioRol.cs",
+              "RelativeDocumentMoniker": "Security.Domain\\Entities\\UsuarioRol.cs",
+              "ToolTip": "C:\\Users\\Perdo\\OneDrive\\Documentos\\INSTRUCTOR-C\\Nueva carpeta\\API\\Security.Domain\\Entities\\UsuarioRol.cs",
+              "RelativeToolTip": "Security.Domain\\Entities\\UsuarioRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T00:26:03.977Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

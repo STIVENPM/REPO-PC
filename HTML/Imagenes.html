@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+    <link rel="stylesheet" href="stiles/styles.css">
+</head>
+<body>
+
+<header class="encabezado">
+    <h1>Blog educativo de HTML</h1>
+</header>
+
+<nav class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="Estructurales.html">Estructurales</a>
+    <a href="Texto.html">Texto</a>
+    <a href="Imagenes.html">Multimedia</a>
+    <a href="Formularios.html">Formularios</a>
+    <a href="Listas.html">Listas</a>
+</nav>
+
+<section class="contenido">
+
+<h2 class="titulo">Multimedia en HTML</h2>
+
+<h2>¿Qué son las etiquetas multimedia?</h2>
+
+<p>
+Las etiquetas multimedia permiten integrar diferentes tipos de contenido visual y audiovisual dentro de una página web, 
+como imágenes, videos o audio. Gracias a HTML5, los navegadores modernos pueden reproducir este contenido directamente 
+sin necesidad de programas adicionales.
+</p>
+
+<p>
+Estas etiquetas hacen que una página web sea más dinámica e interactiva, permitiendo presentar información de forma 
+más visual y atractiva para el usuario.
+</p>
+
+<h2>Tipos de contenido multimedia</h2>
+
+<h3>Imágenes</h3>
+
+<p>
+La etiqueta <strong>&lt;img&gt;</strong> se utiliza para mostrar imágenes dentro de una página web. 
+A diferencia de otras etiquetas HTML, no necesita una etiqueta de cierre.
+</p>
+
+<img src="https://ddy8ftb0naev0.cloudfront.net/assets/42/original/html5_and_css3.webp"
+alt="Ejemplo de imagen HTML y CSS">
+
+<h3>Sintaxis</h3>
+
+<div class="ejemplo">
+&lt;img src="imagen.jpg" alt="Descripción de la imagen"&gt;
+</div>
+
+<h3>Videos</h3>
+
+<p>
+Los videos se pueden insertar utilizando diferentes métodos. Uno de los más comunes es incrustar 
+videos desde plataformas como YouTube utilizando la etiqueta <strong>&lt;iframe&gt;</strong>.
+</p>
+
+<iframe 
+width="100%" 
+height="400" 
+src="https://www.youtube.com/embed/HGTJBPNC-Gw" 
+title="Video de ejemplo sobre HTML"
+allowfullscreen>
+</iframe>
+
+<h3>Sintaxis</h3>
+
+<div class="ejemplo">
+&lt;iframe src="https://www.youtube.com/embed/video"&gt;&lt;/iframe&gt;
+</div>
+
+</section>
+
+<footer class="pie">
+<p>Proyecto educativo</p>
+<p>Santiago Gordo Perez</p>
+<p>Jose Stiven Perdomo Martinez</p>
+</footer>
+
+<script src="js/ejemplo.js"></script>
+
+</body>
+</html>

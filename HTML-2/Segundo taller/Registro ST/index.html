@@ -1,0 +1,55 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro ST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Problema 3: Registro de estudiantes
+Una institución educativa necesita un sistema para registrar la información de los estudiantes de un
+programa de formación.
+De cada estudiante se debe almacenar información básica y su nota final en una asignatura. El
+sistema debe permitir mostrar la información del estudiante y determinar si aprobó o no el curso
+según su calificación.
+La institución quiere que el sistema pueda manejar varios estudiantes al mismo tiempo.-->
+<!DOCTYPE html>
+<body>
+
+    <header>
+        <h1>Registro ST</h1>
+    </header>
+
+    <section class="contenedor1">
+        <h1>Registro de Estudiantes</h1>
+        <form id="estudentForm">
+            <input type="text" id="nombreEstudiante" placeholder="Nombre del estudiante">
+            <input type="text" id="cursoEstudiante" placeholder="Curso">
+           <input type="number" id="notaEstudiante" placeholder="Nota final" min="1" max="5" step="0.1">
+
+            <button type="submit">Registrar Estudiante</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+
+    <section class="contenedor3">
+        <h2>Información del Estudiante</h2>
+
+        <select id="estudianteConsultar">
+            <option value="">Seleccione un estudiante</option>
+        </select>
+
+        <form id="formConsultar">
+            <input type="text" id="nombreConsultar" placeholder="Nombre del estudiante" readonly>
+            <input type="text" id="cursoConsultar" placeholder="Curso" readonly>
+            <input type="text" id="notaConsultar" placeholder="Nota final" readonly>
+
+            <button type="button" id="btnConsultar">Consultar</button>
+        </form>
+
+        <p id="resultadoConsulta"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

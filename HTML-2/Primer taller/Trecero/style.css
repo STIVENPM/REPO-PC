@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    background:#ffffff;
+}
+
+header{
+    background:#1565C0;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+/*Estilos para la barra de navegación*/
+.navbar{
+    background:#1E293B;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar a{
+    color:white;
+    padding:14px 20px;
+    text-decoration:none;
+    
+}
+
+.navbar a:hover{
+    background:#aaaaaa;
+}
+/*Estilos para el contenedor del mensaje*/
+.contenedor1{
+    width:400px;
+    margin:90px auto;
+    background:rgb(255, 255, 255);
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0, 68, 255, 0.2);
+}
+
+.contenedor1 input,
+.contenedor1 select{
+    width:80%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.contenedor1 button{
+    padding:10px 20px;
+    background:#1565C0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#resultadoCalc{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+
+
+
+
+.contenedor2{
+    width:400px;
+    margin:90px auto;
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0, 68, 255, 0.2);
+}
+
+.contenedor2 li{
+    margin:8px 0;
+}
+
+.contenedor2 button{
+    margin-left:10px;
+    padding:5px 10px;
+    background:#1565C0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor3{
+    width:400px;
+    margin:90px auto;
+    background:white;
+    padding:30px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0, 68, 255, 0.2);
+}
+
+.contenedor3 input{
+    width:80%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+.contenedor3 button{
+    padding:10px 20px;
+    background:#1565C0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#mensaje{
+    margin-top:15px;
+    font-weight:bold;
+}
+
+
+
+
+
+
+

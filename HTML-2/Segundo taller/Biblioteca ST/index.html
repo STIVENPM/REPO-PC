@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca ST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- Problema 6: Sistema de biblioteca
+Una biblioteca quiere implementar un sistema para controlar el préstamo de libros.
+Cada libro tiene información como el título, el autor y su estado actual. Cuando un libro es prestado
+a un usuario, el sistema debe cambiar su estado para indicar que no está disponible. Cuando el libro
+es devuelto, debe volver a estar disponible para otros usuarios.
+La biblioteca necesita que el sistema permita consultar la información de los libros y su
+disponibilidad.
+-->
+
+<body>
+    <header>
+        <h1>Biblioteca ST</h1>
+    </header>
+
+    <main>
+        <section class="contenedor">
+            <h2>Registrar libro</h2>
+
+            <form id="libroForm">
+                <label for="tituloLibro">Titulo del libro:</label>
+                <input type="text" id="tituloLibro" placeholder="Ingrese el titulo del libro">
+
+                <label for="autorLibro">Autor del libro:</label>
+                <input type="text" id="autorLibro" placeholder="Ingrese el autor del libro">
+
+                <button type="submit">Registrar libro</button>
+            </form>
+
+            <p id="resultadoRegistro"></p>
+        </section>
+
+        <section class="contenedor">
+            <h2>Libros registrados</h2>
+
+            <select id="listaLibros" size="8">
+                <option value="">No hay libros registrados</option>
+            </select>
+
+            <button type="button" id="prestarLibro">Prestar libro</button>
+            <button type="button" id="devolverLibro">Devolver libro</button>
+
+            <p id="resultadoAccion"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
